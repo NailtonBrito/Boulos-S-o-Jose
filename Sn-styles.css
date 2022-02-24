@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #FBE7C6;
+}
+
+.bloco {
+    width: 940px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.img-logo {
+    width: 220px;
+    height: 220px;
+    border: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 4px;
+    background-color: rgb(255, 206, 143);
+}
+
+nav{
+    position: absolute; 
+    right: 0px; 
+    top: 100px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.link:hover{
+    color: darkgoldenrod;
+    transition: 400ms;
+}
+
+
+/* Main CSS */
+main {
+    width: 100%;
+    height: 2520px;
+}
+
+.lero-lero {
+    position: absolute;
+    width: 60%;
+    top: 900px;
+    font-size: 24px;
+    left: 10px;
+    text-align: justify;
+}
+.lero-lero-2 {
+    position: absolute;
+    width: 60%;
+    top: 1100px;
+    font-size: 24px;
+    left: 10px;
+    text-align: justify;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('IMG/744456.jpg');
+  
+    /* Full height */
+    height: 450px;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: white;
+    padding: 130px 0 0 0;
+    text-align: center;
+    font-size: 120px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.bg2 {
+    width: 100%;
+    display: inline;
+    border: none;
+}
+
+.mapa{
+    position: absolute;
+    right: 20px;
+    top: 1500px;
+    border: 1px black;
+    border-style: solid;
+    border-radius: 20px 0 20px 0;
+}
+
+.titulo-1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+section {
+    display: block;
+    height: 20%;
+}
+
+.ul-class {
+    list-style: none;
+    display: inline;
+}
+
+.benef-list {
+    width: 40%;
+    font-size: 20px;
+    margin: 10px 0;
+    align-items: justify;
+}
+
+.Boulos {
+    width: 40%;
+    height: 300px;
+    position: relative;
+    left: 600px;
+    bottom: 180px;
+    box-shadow: 1px 1px 10px red;
+}
+
+/* Footer */ 
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(rgb(255, 123, 0), rgb(255, 188, 100));
+    
+}
+
+footer img {
+    margin: 12px;
+}
+
+footer p {
+    color: white;
+}

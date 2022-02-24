@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #FBE7C6;
+}
+
+.bloco {
+    width: 940px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.img-logo {
+    width: 220px;
+    height: 220px;
+    border: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 4px;
+    background-color: rgb(255, 206, 143);
+}
+
+nav{
+    position: absolute; 
+    right: 0px; 
+    top: 100px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+
+.link:hover{
+    color: darkgoldenrod;
+    transition: 400ms;
+}
+
+/* Main */
+
+.img-bolos {
+    width: 1280px;
+    height: 720px;
+}
+
+.list-bolos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.bolo-bg {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    margin: 80px 0 20px 0;
+    background-image: url(https://img.itdg.com.br/tdg/images/recipes/000/000/023/323619/323619_original.jpg?mode=crop&width=710&height=400);
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    opacity: 80%;
+}
+
+.list-bolos h2 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: block;
+    margin: 150px;
+    margin-left: 240px;
+    color: white;
+}
+
+.bolo-desc {
+    font-size: 18px;
+    font-family: sans-serif;
+    display: block;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.price {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    font-family: sans-serif;
+}
+
+h4{
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* Footer */ 
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(rgb(255, 123, 0), rgb(255, 188, 100));
+}
+
+footer img {
+    margin: 12px;
+}
+
+footer p {
+    color: white;
+}

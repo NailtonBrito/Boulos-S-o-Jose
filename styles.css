@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #FBE7C6;
+}
+
+.bloco {
+    width: 940px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.img-logo {
+    width: 220px;
+    height: 220px;
+    border: solid;
+    border-color: white;
+    border-radius: 200px;
+    border-width: 4px;
+    background-color: rgb(255, 206, 143);
+}
+
+nav{
+    position: absolute; 
+    right: 0px; 
+    top: 100px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+
+.link:hover{
+    color: darkgoldenrod;
+    transition: 400ms;
+}
+
+/* Main CSS */
+
+.img-bolos{
+    width: 400px;
+    height: 200px;
+    filter: contrast(-20%),saturate(50);
+}
+
+.list-bolos {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.list-bolos li {
+    display: inline-block;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+    vertical-align: top;
+    border: 3px solid black;
+    border-radius: 12px 45px;
+    padding: 20px 10px;
+    margin: 80px 0;
+}
+
+.list-bolos li:hover{
+    border-color: goldenrod;
+    transition: 800ms;
+    height: 400px;
+    width: 32%;
+    transition-delay: 200ms;
+    cursor: pointer;
+
+}
+
+.list-bolos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 15px 0;
+}
+
+.bolo-desc {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 15px 0;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.wpp {
+    position: relative;
+    left: 1650px;
+    bottom: 10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+/* Footer */ 
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(rgb(255, 123, 0), rgb(255, 188, 100));
+}
+
+footer img {
+    margin: 12px;
+}
+
+footer p {
+    color: white;
+}
+
+/* CSS apresentação dos bolos */
+
+.bolo-show {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.content-bolo{
+    display: inline-block;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.bolo-button {
+    text-decoration: none;
+    color: black;
+}
